@@ -1,172 +1,102 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>little things</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySpace</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <h1>little things</h1>
-        <p>A collection of thoughts, memories, and moments.</p>
-    </header>
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h2>StudySpace</h2>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Calendar</a>
+                <a href="#">Tasks</a>
+                <a href="#">Focus Timer</a>
+                <a href="#">Notes</a>
+            </nav>
+        </aside>
 
 
-    <!-- NAVIGATION -->
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#journal">Journal</a> |
-        <a href="#favorites">Favorites</a> |
-        <a href="#about">About</a>
-    </nav>
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <header>
+                <h1>Good morning!</h1>
+                <p>Small steps make big progress.</p>
+            </header>
 
 
-    <hr>
+            <!-- DASHBOARD CARDS -->
+            <div class="dashboard-grid">
+
+                <!-- PROGRESS CARD -->
+                <section class="progress-card">
+                    <h2>Today's Progress</h2>
+                    <p>You've completed 2 out of 5 tasks.</p>
+                </section>
 
 
-    <!-- MAIN CONTENT -->
-    <main id="home">
+                <!-- TASKS CARD -->
+                <section class="tasks-card">
+                    <h2>Today's Tasks</h2>
 
-        <h2>Welcome to my little corner!</h2>
+                    <div class="task-list">
 
-        <p>
-            This is my personal space on the internet.
-            Here, I write about everyday life, things I enjoy,
-            and little moments worth remembering.
-        </p>
+                        <div class="task">
+                            <input type="checkbox">
+                            <span>Finish chemistry homework</span>
+                        </div>
 
+                        <div class="task">
+                            <input type="checkbox">
+                            <span>Review biology notes</span>
+                        </div>
 
-        <!-- JOURNAL SECTION -->
-        <section id="journal">
+                        <div class="task">
+                            <input type="checkbox">
+                            <span>Read assigned article</span>
+                        </div>
 
-            <h2>My Journal</h2>
+                        <div class="task">
+                            <input type="checkbox">
+                            <span>Practice JavaScript</span>
+                        </div>
 
-            <!-- FIRST BLOG POST -->
-            <article>
-
-                <h3>A quiet afternoon</h3>
-
-                <time datetime="2026-11-14">
-                    November 14, 2026
-                </time>
-
-                <p>
-                    Today was a particularly peaceful day.
-                    I spent the afternoon reading, listening
-                    to music, and enjoying the sunshine.
-                </p>
-
-                <blockquote>
-                    "Enjoy the little things, for one day
-                    you may look back and realize they
-                    were the big things."
-                </blockquote>
-
-                <p>
-                    I think I want to make more time for
-                    these slower moments.
-                </p>
-
-            </article>
+                    </div>
+                </section>
 
 
-            <hr>
+                <!-- CALENDAR CARD -->
+                <section class="calendar-card">
+                    <h2>This Week</h2>
 
+                    <p>
+                        Mon &nbsp;
+                        Tue &nbsp;
+                        Wed &nbsp;
+                        Thu &nbsp;
+                        Fri
+                    </p>
 
-            <!-- SECOND BLOG POST -->
-            <article>
+                    <a href="#">View full calendar →</a>
+                </section>
 
-                <h3>Currently inspired</h3>
+            </div>
 
-                <time datetime="2026-11-16">
-                    November 16, 2026
-                </time>
+        </main>
 
-                <p>
-                    I've been feeling inspired to try new
-                    creative projects lately. I've also been
-                    collecting photographs and little
-                    snippets of writing.
-                </p>
-
-                <figure>
-                    <img
-                        src="flowers.jpg"
-                        alt="Pink flowers in a garden"
-                        width="300"
-                    >
-
-                    <figcaption>
-                        A photograph from my afternoon walk.
-                    </figcaption>
-                </figure>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- FAVORITES SECTION -->
-        <section id="favorites">
-
-            <h2>Currently Loving</h2>
-
-            <p>Some things making me happy lately:</p>
-
-            <ul>
-                <li>Reading before bed</li>
-                <li>Film photography</li>
-                <li>Listening to new music</li>
-                <li>Visiting little cafes</li>
-            </ul>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- ABOUT SECTION -->
-        <section id="about">
-
-            <h2>About Me</h2>
-
-            <p>
-                Hello! I'm the person behind this blog.
-                I made this website as a place to document
-                my thoughts and interests.
-            </p>
-
-            <p>
-                Thanks for stopping by!
-            </p>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <hr>
-
-        <p>
-            Made with love.
-        </p>
-
-        <p>
-            <a href="#home">Back to top</a>
-        </p>
-
-    </footer>
+    </div>
 
 </body>
-
 </html>
