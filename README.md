@@ -1,35 +1,38 @@
-# lemonadestand-blog-test
+# 🍋 Lemonade Stand
 
-# ♡ lemonade stand
+A personal blog project built to practice and strengthen foundational frontend development skills.
 
-*A little corner of the internet.*
+## About
 
-Welcome to **my lemonade stand**, my personal blog made entirely with HTML!
+**Lemonade Stand** is a simple blog website created as a hands-on project for learning web development. The project serves as a space to experiment with HTML, CSS, and JavaScript while exploring the fundamentals of building and styling interactive web pages.
 
-This project is a small space to collect thoughts, memories, interests, and everyday moments. Inspired by the charm of old-school personal websites and vintage internet blogs.
+Rather than focusing on complex functionality, the goal is to develop practical coding skills through experimentation, iteration, and creative design.
 
-## 🌷 About the Project
+## Learning Objectives
 
-The goal is to create a simple, standalone personal blog while learning the fundamentals of HTML.
+Through this project, I aim to practice:
 
-**Things you'll find here:**
-- ✿ Personal journal entries
-- ✿ Favorite quotes and little reflections
-- ✿ Photography and images
-- ✿ Currently loving lists
-- ✿ A little About Me section
+- **HTML:** Structuring web pages with semantic elements and organized content.
+- **CSS:** Styling layouts, typography, colors, spacing, and responsive components.
+- **JavaScript:** Introducing interactivity and learning basic DOM manipulation.
+- **Frontend Development:** Understanding how HTML, CSS, and JavaScript work together to create a website.
 
-## 🎀 Project Goals
+## Technologies
 
-- Build my own little corner of the internet.
-- Practice writing clean, organized HTML.
-- Learn how to structure webpages independently.
-- Eventually create a collection of interconnected personal pages.
+- HTML5
+- CSS3
+- JavaScript
 
-## 💌 A Little Note
+## Project Goals
 
-This is a beginner-friendly project and a work in progress!
+- Build a functional, visually cohesive blog layout.
+- Experiment with different frontend design techniques.
+- Practice writing clean and organized code.
+- Gradually introduce interactive features using JavaScript.
+- Develop confidence in building websites from scratch.
 
-Made with love, one tag at a time.
+## Project Status
 
-*Thanks for stopping by!* ♡
+**In Progress**
+
+This project is an ongoing learning exercise. Features, styling, and functionality may evolve as I continue developing my frontend skills.
