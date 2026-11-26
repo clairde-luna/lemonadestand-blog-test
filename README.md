@@ -10,7 +10,7 @@ Rather than focusing on complex functionality, the goal is to develop practical 
 
 ## Learning Objectives
 
-Through this project, I aim to practice:
+This project includes content that will aim to help me practice these skills:
 
 - **HTML:** Structuring web pages with semantic elements and organized content.
 - **CSS:** Styling layouts, typography, colors, spacing, and responsive components.
